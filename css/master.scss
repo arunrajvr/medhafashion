@@ -9239,6 +9239,10 @@ header {
 
           &:hover {
             left: -80px;
+            @media screen and (max-width: 767px) {
+              left: 0;
+              background-color: rgba(0, 0, 0, 0.5);
+            }
           }
         }
 
@@ -9253,6 +9257,10 @@ header {
 
           &:hover {
             right: -80px;
+            @media screen and (max-width: 767px) {
+              right: 0;
+              background-color: rgba(0, 0, 0, 0.5);
+            }
           }
         }
       }

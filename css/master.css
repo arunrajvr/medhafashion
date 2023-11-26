@@ -8886,6 +8886,12 @@ header .header-strip p {
 .stories .carousal-holder .center-carousal .owl-nav .owl-prev:hover {
   left: -80px;
 }
+@media screen and (max-width: 767px) {
+  .stories .carousal-holder .center-carousal .owl-nav .owl-prev:hover {
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
 .stories .carousal-holder .center-carousal .owl-nav .owl-next {
   right: -75px;
   background-image: url("../images/next.png");
@@ -8898,6 +8904,12 @@ header .header-strip p {
 }
 .stories .carousal-holder .center-carousal .owl-nav .owl-next:hover {
   right: -80px;
+}
+@media screen and (max-width: 767px) {
+  .stories .carousal-holder .center-carousal .owl-nav .owl-next:hover {
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 .stories .carousal-holder .center-carousal .owl-item {
   transform: scale(0.9);
