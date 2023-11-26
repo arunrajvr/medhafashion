@@ -23,7 +23,7 @@
             <div class="flex space-between align-item-center mt-6 mb-6">
                 <div class="navbar-header">
                     <a href="index.html" class="navbar-brand icon wow slideInLeft" data-wow-delay=".4s">
-                        <span><img style="width: 210px;" src="images/logo.svg" alt=""></span>
+                        <span><img src="images/logo.svg" alt=""></span>
                     </a>
                 </div>
                 <!-- <div class="menu-btn-holder">
@@ -558,8 +558,17 @@
             autoplayTimeout: 3000,
             margin: 105,
             responsive: {
+                300: {
+                    items: 1,
+                    margin: 15,
+                },
                 600: {
-                    items: 2
+                    items: 1,
+                    margin: 15,
+                },
+                767: {
+                    items: 1,
+                    margin: 15,
                 }
             }
         });
