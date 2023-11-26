@@ -7576,6 +7576,7 @@ button.close {
   border-width: 0 5px 5px;
   border-bottom-color: #000;
 }
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -7585,6 +7586,7 @@ button.close {
 .clearfix:after {
   clear: both;
 }
+
 .pull-right {
   float: right !important;
 }
@@ -7806,6 +7808,10 @@ ul {
 .row {
   margin-left: -30px;
   margin-right: -30px;
+  @media screen and (max-width: 767px) {
+    margin-left: -15px;
+  margin-right: -15px;
+  }
 }
 
 .col-xs-1,
@@ -7858,6 +7864,11 @@ ul {
 .col-lg-12 {
   padding-left: 30px;
   padding-right: 30px;
+
+  @media screen and (max-width: 767px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .transition-fast {
@@ -7908,6 +7919,10 @@ body {
   border-radius: 30px 0px 30px 30px;
   display: inline-block;
   font-family: 'Poppins-Light';
+
+  @media screen and (max-width: 767px) {
+    padding: 8px 20px;
+  }
 }
 
 .bg-gold {
@@ -8020,6 +8035,14 @@ body {
 .navbar-brand {
   padding: 0;
   height: auto;
+
+  img {
+    width: 210px;
+
+    @media screen and (max-width: 767px) {
+      width: 100px !important;
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -8112,6 +8135,12 @@ body {
   letter-spacing: normal;
   color: #222;
   position: relative;
+
+  img {
+    @media screen and (max-width: 767px) {
+      width: 20px !important;
+    }
+  }
 }
 
 .navbar-right li a.button {
@@ -8300,6 +8329,17 @@ header {
     max-width: 870px;
     z-index: 2;
 
+    @media screen and (max-width: 767px) {
+      top: 20px;
+      left: 35px;
+      right: 100px;
+
+      .mt-48 {
+        margin-top: 15px;
+      }
+    }
+
+
     h1 {
       font-family: 'PlayfairDisplay-Regular';
       font-size: 60px;
@@ -8307,15 +8347,20 @@ header {
       font-weight: 400;
       line-height: normal;
       color: $medhaWhite;
+
+      @media screen and (max-width: 767px) {
+        font-size: 22px;
+      }
     }
-
-
   }
 }
 
 .quality-content-holder {
   margin: 80px 0;
-  ;
+
+  @media screen and (max-width: 767px) {
+    margin: 25px 0;
+  }
 }
 
 .content-holder {
@@ -8332,7 +8377,11 @@ header {
       font-weight: 400;
       line-height: normal;
       margin: 25px 0;
-      ;
+
+      @media screen and (max-width: 767px) {
+        font-size: 20px;
+        margin: 5px 0;
+      }
     }
   }
 }
@@ -8357,6 +8406,10 @@ header {
       bottom: 0;
       padding: 35px 50px;
 
+      @media screen and (max-width: 767px) {
+        padding: 20px;
+      }
+
       h3 {
         color: $medhaWhite;
         font-family: 'Poppins-Light';
@@ -8364,6 +8417,10 @@ header {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+
+        @media screen and (max-width: 767px) {
+          font-size: 20px;
+        }
       }
 
       a {
@@ -8374,12 +8431,20 @@ header {
         font-size: 14px;
         padding: 8px 16px;
         font-style: normal;
+
+        @media screen and (max-width: 767px) {
+          padding: 8px 13px;
+        }
       }
     }
   }
 
   .pattern {
     margin-bottom: 25px;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 0px;
+    }
 
     img {
       max-width: 100%;
@@ -8395,6 +8460,10 @@ header {
       line-height: normal;
       color: $medhaBlack;
       margin-bottom: 12px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+      }
     }
 
     p {
@@ -8404,6 +8473,10 @@ header {
       font-weight: 400;
       line-height: normal;
       color: $medhaBlack;
+
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+      }
     }
   }
 
@@ -8425,6 +8498,10 @@ header {
           font-style: normal;
           font-weight: 400;
           line-height: normal;
+
+          @media screen and (max-width: 767px) {
+            font-size: 14px;
+          }
         }
       }
 
@@ -8439,6 +8516,10 @@ header {
           text-align: center;
           opacity: 0;
 
+          @media screen and (max-width: 767px) {
+            opacity: 1;
+          }
+
           a {
             border-radius: 30px 0px 30px 30px;
             background-color: $medhaGold;
@@ -8447,6 +8528,11 @@ header {
             font-size: 12px;
             padding: 5px 12px;
             font-style: normal;
+
+            @media screen and (max-width: 767px) {
+              background-color: rgba(186, 151, 95, 0.7);
+              padding: 5px 10px;
+            }
           }
         }
       }
@@ -8484,6 +8570,11 @@ header {
   &.craft-padding {
     padding-top: 90px;
     padding-bottom: 250px;
+
+    @media screen and (max-width: 767px) {
+      padding-top: 25px;
+      padding-bottom: 65px;
+    }
   }
 
   .content-holder {
@@ -8495,6 +8586,10 @@ header {
       line-height: normal;
       color: $medhaBlack;
       margin-bottom: 12px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+      }
     }
 
     p {
@@ -8504,6 +8599,16 @@ header {
       font-weight: 400;
       line-height: normal;
       color: $medhaBlack;
+
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+      }
+    }
+
+    &.mb-70 {
+      @media screen and (max-width: 767px) {
+        margin-bottom: 25px;
+      }
     }
   }
 
@@ -8518,8 +8623,21 @@ header {
     right: 0;
     bottom: 65px;
 
+    @media screen and (max-width: 767px) {
+      position: relative;
+      top: 35px;
+      padding: 12px 30px;
+      border-radius: 0;
+      justify-content: space-around;
+    }
+
     img {
       margin-right: 30px;
+
+      @media screen and (max-width: 767px) {
+        margin-right: 10px;
+        width: 35px;
+      }
 
       &:last-child {
         margin-right: 0;
@@ -8534,6 +8652,10 @@ header {
       line-height: normal;
       color: $medhaBlack;
       margin-right: 30px;
+
+      @media screen and (max-width: 767px) {
+        margin-right: 5px;
+      }
     }
   }
 }
@@ -8544,10 +8666,17 @@ header {
   padding: 15px;
   background-color: $medhaWhite;
 
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+
   .insta-feed {
     height: 473px;
     overflow: hidden;
 
+    @media screen and (max-width: 767px) {
+      height: 310px;
+    }
   }
 
   .insta-color-icon {
@@ -8556,6 +8685,15 @@ header {
     left: 0;
     transform: translateX(-50%);
     z-index: 999;
+
+    @media screen and (max-width: 767px) {
+      transform: none;
+      left: -10px;
+
+      img {
+        width: 55px;
+      }
+    }
   }
 
   .load-more-btn {
@@ -8566,6 +8704,10 @@ header {
     top: -20px;
     right: -45px;
     z-index: 999;
+
+    @media screen and (max-width: 767px) {
+      right: 20px;
+    }
 
     a {
       padding: 7px 15px;
@@ -8585,6 +8727,10 @@ header {
     right: -80px;
     z-index: 999;
 
+    @media screen and (max-width: 767px) {
+      right: -10px;
+    }
+
     a {
       padding: 7px 15px;
       background-color: $medhaWhite;
@@ -8599,6 +8745,10 @@ header {
 .craft-video-holder {
   position: relative;
 
+  @media screen and (max-width: 767px) {
+    padding-top: 40px;
+  }
+
   &::before {
     content: '';
     background: url(../images/pattern-rectangle.png);
@@ -8610,6 +8760,12 @@ header {
     z-index: 0;
     background-position-x: 15px;
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 767px) {
+      top: 10px;
+      bottom: -35px;
+      right: 0;
+    }
   }
 
   .image-holder {
@@ -8676,7 +8832,8 @@ header {
         padding-left: 10px;
         margin-left: 10px;
         border-left: 1px solid $medhaWhite;
-        &:first-child{
+
+        &:first-child {
           border: none;
         }
       }
@@ -8685,8 +8842,16 @@ header {
 }
 
 .elevated-workwear {
+  @media screen and (max-width: 767px) {
+    padding: 25px 0;
+  }
+
   .content-holder {
     padding: 70px 130px;
+
+    @media screen and (max-width: 767px) {
+      padding: 25px 10px 0 10px;
+    }
 
     h4 {
       font-family: 'PlayfairDisplay-Regular';
@@ -8696,6 +8861,10 @@ header {
       line-height: normal;
       color: $medhaWhite;
       margin-bottom: 12px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+      }
     }
 
     p {
@@ -8705,6 +8874,10 @@ header {
       font-weight: 400;
       line-height: normal;
       color: $medhaWhite;
+
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+      }
     }
 
     a {
@@ -8766,6 +8939,10 @@ header {
 .mid-data-holder {
   padding: 80px 30px 60px 0;
 
+  @media screen and (max-width: 767px) {
+    padding: 25px 0 25px 0;
+  }
+
   .content-holder {
     h4 {
       font-family: 'PlayfairDisplay-Regular';
@@ -8775,6 +8952,10 @@ header {
       line-height: normal;
       color: $medhaBlack;
       margin-bottom: 12px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+      }
     }
 
     p {
@@ -8784,6 +8965,13 @@ header {
       font-weight: 400;
       line-height: normal;
       color: $medhaBlack;
+
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+        &.mb-40{
+          margin-bottom: 25px;
+        }
+      }
     }
   }
 }
@@ -8792,9 +8980,18 @@ header {
   display: flex;
   align-items: flex-start;
 
+  @media screen and (max-width: 767px) {
+    justify-content: space-between;
+    margin-bottom: 20px !important;
+  }
+
   .profile-holder {
     text-align: center;
     margin-right: 65px;
+
+    @media screen and (max-width: 767px) {
+      margin-right: 0;
+    }
 
     &:last-child {
       margin-right: 0;
@@ -8823,9 +9020,17 @@ header {
 }
 
 .tagline {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 10px !important;
+  }
+
   h6 {
     font-family: 'Poppins-Medium';
     font-size: 18px;
+
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
+    }
   }
 }
 
@@ -8834,11 +9039,20 @@ header {
   align-items: center;
   margin-bottom: 18px;
 
+  @media screen and (max-width: 767px) {
+    margin-bottom: 10px;
+  }
+
   p {
     font-family: 'Poppins-Medium';
     font-size: 18px;
     color: $medhaBlack;
     margin-right: 18px;
+
+    @media screen and (max-width: 767px) {
+      margin-right: 10px;
+      font-size: 16px;
+    }
   }
 
   a {
@@ -8859,6 +9073,10 @@ header {
     font-family: 'Poppins-Regular';
     font-size: 20px;
     margin-right: 10px;
+
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
+    }
   }
 
   display: flex;
@@ -8871,16 +9089,24 @@ header {
   .image-holder {
     max-width: 450px;
     padding-top: 90px;
+
+    @media screen and (max-width: 767px) {
+      padding-top: 0px;
+    }
   }
 
   .mid-pattern-top,
   .mid-pattern-bottom {
     position: absolute;
+    @media screen and (max-width: 767px) {
+      z-index: -1;
+    }
   }
 
   .mid-pattern-top {
     right: 0;
     top: 40px;
+
   }
 
   .mid-pattern-bottom {
@@ -8894,6 +9120,10 @@ header {
   padding: 70px 0;
   position: relative;
 
+  @media screen and (max-width: 767px) {
+    padding: 25px 0;
+  }
+
   .pattern-1,
   .pattern-2,
   .pattern-3,
@@ -8901,6 +9131,10 @@ header {
     position: absolute;
     width: 50px;
     display: block;
+
+    @media screen and (max-width: 767px) {
+      width: 20px;
+    }
 
     img {
       width: 100%;
@@ -8940,6 +9174,10 @@ header {
       line-height: normal;
       color: $medhaWhite;
       margin-bottom: 12px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+      }
     }
 
     p {
@@ -8949,6 +9187,10 @@ header {
       font-weight: 400;
       line-height: normal;
       color: $medhaWhite;
+
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+      }
     }
   }
 
@@ -8990,6 +9232,11 @@ header {
           left: -75px;
           background-image: url('../images/prev.png');
 
+          @media screen and (max-width: 767px) {
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+          }
+
           &:hover {
             left: -80px;
           }
@@ -8998,6 +9245,11 @@ header {
         .owl-next {
           right: -75px;
           background-image: url('../images/next.png');
+
+          @media screen and (max-width: 767px) {
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+          }
 
           &:hover {
             right: -80px;
@@ -9014,6 +9266,10 @@ header {
           margin-top: 15px;
           display: none;
 
+          @media screen and (max-width: 767px) {
+            margin-top: 10px;
+          }
+
           h3 {
             font-family: 'Poppins-Medium';
             font-size: 28px;
@@ -9021,6 +9277,10 @@ header {
             font-weight: 400;
             line-height: normal;
             color: $medhaWhite;
+
+            @media screen and (max-width: 767px) {
+              font-size: 24px;
+            }
           }
 
           h6 {
@@ -9041,6 +9301,10 @@ header {
             line-height: normal;
             color: $medhaWhite;
             margin-bottom: 12px;
+
+            @media screen and (max-width: 767px) {
+              font-size: 14px;
+            }
           }
         }
 
@@ -9056,10 +9320,19 @@ header {
     }
   }
 }
+
 .divider {
   border-top: 1px solid $medhaWhite;
 }
+
 .gallery {
+  @media screen and (max-width: 767px) {
+    padding: 15px 0;
+    .padding-0 {
+      padding: 0 15px !important;
+    }
+  }
+
   .image-holder {
     position: relative;
 
@@ -9069,6 +9342,10 @@ header {
       right: 0;
       bottom: 25px;
       text-align: center;
+
+      @media screen and (max-width: 767px) {
+        bottom: 15px;
+      }
 
       h5 {
         font-family: 'Poppins-Medium';
@@ -9083,6 +9360,11 @@ header {
         display: inline-block;
         border: 1px solid transparent;
         box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+
+        @media screen and (max-width: 767px) {
+          font-size: 16px;
+          padding: 5px 15px;
+        }
       }
     }
 
@@ -9102,8 +9384,17 @@ header {
 .location {
   padding: 70px 0;
 
+  @media screen and (max-width: 767px) {
+    padding: 25px 0;
+  }
+
   .content-holder {
     margin-bottom: 45px;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 0px;
+      margin-top: 15px;
+    }
 
     h4 {
       font-family: 'PlayfairDisplay-Regular';
@@ -9113,6 +9404,10 @@ header {
       line-height: normal;
       color: $medhaWhite;
       margin-bottom: 12px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+      }
     }
 
     p {
@@ -9123,6 +9418,13 @@ header {
       line-height: normal;
       color: $medhaWhite;
       max-width: 450px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+        &.mb-40{
+          margin-bottom: 30px !important;
+        }
+      }
     }
   }
 
@@ -9138,6 +9440,9 @@ header {
         line-height: normal;
         color: $medhaWhite;
         margin-bottom: 5px;
+        @media screen and (max-width: 767px) {
+          font-size: 16px;
+        }
       }
     }
 
@@ -9153,12 +9458,20 @@ header {
         color: $medhaWhite;
         margin-right: 13px;
         line-height: 20px;
+        @media screen and (max-width: 767px) {
+          font-size: 16px;
+        }
       }
 
       img {
         width: 20px;
         height: 20px;
         margin-right: 10px;
+        @media screen and (max-width: 767px) {
+          width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        }
       }
     }
 
@@ -9171,6 +9484,9 @@ header {
         line-height: normal;
         color: $medhaWhite;
         margin-bottom: 10px;
+        @media screen and (max-width: 767px) {
+          font-size: 14px;
+        }
       }
     }
 
@@ -9190,6 +9506,9 @@ header {
         background-repeat: no-repeat;
         background-position: left 4px;
         width: calc(100% - 170px);
+        @media screen and (max-width: 767px) {
+          padding-left: 30px;
+        }
 
         p {
           font-family: 'Poppins-Medium';
@@ -9198,6 +9517,9 @@ header {
           font-weight: 400;
           line-height: normal;
           color: $medhaWhite;
+          @media screen and (max-width: 767px) {
+            font-size: 14px;
+          }
         }
       }
     }
@@ -9205,6 +9527,10 @@ header {
 
   .location-rating {
     padding-left: 50px;
+
+    @media screen and (max-width: 767px) {
+      padding-left: 0px;
+    }
   }
 }
 

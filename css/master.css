@@ -7498,6 +7498,12 @@ ul {
   margin-left: -30px;
   margin-right: -30px;
 }
+@media screen and (max-width: 767px) {
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
 
 .col-xs-1,
 .col-sm-1,
@@ -7550,6 +7556,59 @@ ul {
   padding-left: 30px;
   padding-right: 30px;
 }
+@media screen and (max-width: 767px) {
+  .col-xs-1,
+  .col-sm-1,
+  .col-md-1,
+  .col-lg-1,
+  .col-xs-2,
+  .col-sm-2,
+  .col-md-2,
+  .col-lg-2,
+  .col-xs-3,
+  .col-sm-3,
+  .col-md-3,
+  .col-lg-3,
+  .col-xs-4,
+  .col-sm-4,
+  .col-md-4,
+  .col-lg-4,
+  .col-xs-5,
+  .col-sm-5,
+  .col-md-5,
+  .col-lg-5,
+  .col-xs-6,
+  .col-sm-6,
+  .col-md-6,
+  .col-lg-6,
+  .col-xs-7,
+  .col-sm-7,
+  .col-md-7,
+  .col-lg-7,
+  .col-xs-8,
+  .col-sm-8,
+  .col-md-8,
+  .col-lg-8,
+  .col-xs-9,
+  .col-sm-9,
+  .col-md-9,
+  .col-lg-9,
+  .col-xs-10,
+  .col-sm-10,
+  .col-md-10,
+  .col-lg-10,
+  .col-xs-11,
+  .col-sm-11,
+  .col-md-11,
+  .col-lg-11,
+  .col-xs-12,
+  .col-sm-12,
+  .col-md-12,
+  .col-lg-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
 .transition-fast {
   -webkit-transition: all ease-out 0.2s;
@@ -7599,6 +7658,11 @@ body {
   border-radius: 30px 0px 30px 30px;
   display: inline-block;
   font-family: "Poppins-Light";
+}
+@media screen and (max-width: 767px) {
+  .btn-design {
+    padding: 8px 20px;
+  }
 }
 
 .bg-gold {
@@ -7708,6 +7772,14 @@ body {
   padding: 0;
   height: auto;
 }
+.navbar-brand img {
+  width: 210px;
+}
+@media screen and (max-width: 767px) {
+  .navbar-brand img {
+    width: 100px !important;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .navbar-header {
@@ -7795,6 +7867,11 @@ body {
   letter-spacing: normal;
   color: #222;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .navbar-right li a img {
+    width: 20px !important;
+  }
 }
 
 .navbar-right li a.button {
@@ -7964,6 +8041,16 @@ header .header-strip p {
   max-width: 870px;
   z-index: 2;
 }
+@media screen and (max-width: 767px) {
+  .banner-image-holder .banner-content {
+    top: 20px;
+    left: 35px;
+    right: 100px;
+  }
+  .banner-image-holder .banner-content .mt-48 {
+    margin-top: 15px;
+  }
+}
 .banner-image-holder .banner-content h1 {
   font-family: "PlayfairDisplay-Regular";
   font-size: 60px;
@@ -7972,9 +8059,19 @@ header .header-strip p {
   line-height: normal;
   color: #FCFAF8;
 }
+@media screen and (max-width: 767px) {
+  .banner-image-holder .banner-content h1 {
+    font-size: 22px;
+  }
+}
 
 .quality-content-holder {
   margin: 80px 0;
+}
+@media screen and (max-width: 767px) {
+  .quality-content-holder {
+    margin: 25px 0;
+  }
 }
 
 .content-holder.quality-text img {
@@ -7988,6 +8085,12 @@ header .header-strip p {
   font-weight: 400;
   line-height: normal;
   margin: 25px 0;
+}
+@media screen and (max-width: 767px) {
+  .content-holder.quality-text h2 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
 }
 
 .tradition-content-holder .image-holder.image-big {
@@ -8006,6 +8109,11 @@ header .header-strip p {
   bottom: 0;
   padding: 35px 50px;
 }
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .image-holder .title-holder {
+    padding: 20px;
+  }
+}
 .tradition-content-holder .image-holder .title-holder h3 {
   color: #FCFAF8;
   font-family: "Poppins-Light";
@@ -8013,6 +8121,11 @@ header .header-strip p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .image-holder .title-holder h3 {
+    font-size: 20px;
+  }
 }
 .tradition-content-holder .image-holder .title-holder a {
   border-radius: 30px 0px 30px 30px;
@@ -8023,8 +8136,18 @@ header .header-strip p {
   padding: 8px 16px;
   font-style: normal;
 }
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .image-holder .title-holder a {
+    padding: 8px 13px;
+  }
+}
 .tradition-content-holder .pattern {
   margin-bottom: 25px;
+}
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .pattern {
+    margin-bottom: 0px;
+  }
 }
 .tradition-content-holder .pattern img {
   max-width: 100%;
@@ -8038,6 +8161,11 @@ header .header-strip p {
   color: #101011;
   margin-bottom: 12px;
 }
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .content-holder h4 {
+    font-size: 24px;
+  }
+}
 .tradition-content-holder .content-holder p {
   font-family: "Poppins-Light";
   font-size: 16px;
@@ -8045,6 +8173,11 @@ header .header-strip p {
   font-weight: 400;
   line-height: normal;
   color: #101011;
+}
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .content-holder p {
+    font-size: 14px;
+  }
 }
 .tradition-content-holder .carousal-holder .owl-nav,
 .tradition-content-holder .carousal-holder .owl-dots {
@@ -8060,6 +8193,11 @@ header .header-strip p {
   font-weight: 400;
   line-height: normal;
 }
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .carousal-holder .item .title h3 {
+    font-size: 14px;
+  }
+}
 .tradition-content-holder .carousal-holder .item .img-holder {
   position: relative;
 }
@@ -8071,6 +8209,11 @@ header .header-strip p {
   text-align: center;
   opacity: 0;
 }
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .carousal-holder .item .img-holder .link {
+    opacity: 1;
+  }
+}
 .tradition-content-holder .carousal-holder .item .img-holder .link a {
   border-radius: 30px 0px 30px 30px;
   background-color: #BA975F;
@@ -8079,6 +8222,12 @@ header .header-strip p {
   font-size: 12px;
   padding: 5px 12px;
   font-style: normal;
+}
+@media screen and (max-width: 767px) {
+  .tradition-content-holder .carousal-holder .item .img-holder .link a {
+    background-color: rgba(186, 151, 95, 0.7);
+    padding: 5px 10px;
+  }
 }
 .tradition-content-holder .carousal-holder .item:hover .link {
   opacity: 1;
@@ -8106,6 +8255,12 @@ header .header-strip p {
   padding-top: 90px;
   padding-bottom: 250px;
 }
+@media screen and (max-width: 767px) {
+  .craft.craft-padding {
+    padding-top: 25px;
+    padding-bottom: 65px;
+  }
+}
 .craft .content-holder h4 {
   font-family: "PlayfairDisplay-Regular";
   font-size: 36px;
@@ -8115,6 +8270,11 @@ header .header-strip p {
   color: #101011;
   margin-bottom: 12px;
 }
+@media screen and (max-width: 767px) {
+  .craft .content-holder h4 {
+    font-size: 24px;
+  }
+}
 .craft .content-holder p {
   font-family: "Poppins-Light";
   font-size: 16px;
@@ -8122,6 +8282,16 @@ header .header-strip p {
   font-weight: 400;
   line-height: normal;
   color: #101011;
+}
+@media screen and (max-width: 767px) {
+  .craft .content-holder p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .craft .content-holder.mb-70 {
+    margin-bottom: 25px;
+  }
 }
 .craft .social-media-icons {
   position: absolute;
@@ -8134,8 +8304,23 @@ header .header-strip p {
   right: 0;
   bottom: 65px;
 }
+@media screen and (max-width: 767px) {
+  .craft .social-media-icons {
+    position: relative;
+    top: 35px;
+    padding: 12px 30px;
+    border-radius: 0;
+    justify-content: space-around;
+  }
+}
 .craft .social-media-icons img {
   margin-right: 30px;
+}
+@media screen and (max-width: 767px) {
+  .craft .social-media-icons img {
+    margin-right: 10px;
+    width: 35px;
+  }
 }
 .craft .social-media-icons img:last-child {
   margin-right: 0;
@@ -8149,6 +8334,11 @@ header .header-strip p {
   color: #101011;
   margin-right: 30px;
 }
+@media screen and (max-width: 767px) {
+  .craft .social-media-icons .label {
+    margin-right: 5px;
+  }
+}
 
 .insta-feed-holder {
   position: relative;
@@ -8156,9 +8346,19 @@ header .header-strip p {
   padding: 15px;
   background-color: #FCFAF8;
 }
+@media screen and (max-width: 767px) {
+  .insta-feed-holder {
+    width: 100%;
+  }
+}
 .insta-feed-holder .insta-feed {
   height: 473px;
   overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .insta-feed-holder .insta-feed {
+    height: 310px;
+  }
 }
 .insta-feed-holder .insta-color-icon {
   position: absolute;
@@ -8166,6 +8366,15 @@ header .header-strip p {
   left: 0;
   transform: translateX(-50%);
   z-index: 999;
+}
+@media screen and (max-width: 767px) {
+  .insta-feed-holder .insta-color-icon {
+    transform: none;
+    left: -10px;
+  }
+  .insta-feed-holder .insta-color-icon img {
+    width: 55px;
+  }
 }
 .insta-feed-holder .load-more-btn {
   background-color: #FCFAF8;
@@ -8175,6 +8384,11 @@ header .header-strip p {
   top: -20px;
   right: -45px;
   z-index: 999;
+}
+@media screen and (max-width: 767px) {
+  .insta-feed-holder .load-more-btn {
+    right: 20px;
+  }
 }
 .insta-feed-holder .load-more-btn a {
   padding: 7px 15px;
@@ -8192,6 +8406,11 @@ header .header-strip p {
   right: -80px;
   z-index: 999;
 }
+@media screen and (max-width: 767px) {
+  .insta-feed-holder .view-on-insta-btn {
+    right: -10px;
+  }
+}
 .insta-feed-holder .view-on-insta-btn a {
   padding: 7px 15px;
   background-color: #FCFAF8;
@@ -8204,6 +8423,11 @@ header .header-strip p {
 .craft-video-holder {
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .craft-video-holder {
+    padding-top: 40px;
+  }
+}
 .craft-video-holder::before {
   content: "";
   background: url(../images/pattern-rectangle.png);
@@ -8215,6 +8439,13 @@ header .header-strip p {
   z-index: 0;
   background-position-x: 15px;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .craft-video-holder::before {
+    top: 10px;
+    bottom: -35px;
+    right: 0;
+  }
 }
 .craft-video-holder .image-holder {
   cursor: pointer;
@@ -8273,8 +8504,18 @@ header .header-strip p {
   border: none;
 }
 
+@media screen and (max-width: 767px) {
+  .elevated-workwear {
+    padding: 25px 0;
+  }
+}
 .elevated-workwear .content-holder {
   padding: 70px 130px;
+}
+@media screen and (max-width: 767px) {
+  .elevated-workwear .content-holder {
+    padding: 25px 10px 0 10px;
+  }
 }
 .elevated-workwear .content-holder h4 {
   font-family: "PlayfairDisplay-Regular";
@@ -8285,6 +8526,11 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 12px;
 }
+@media screen and (max-width: 767px) {
+  .elevated-workwear .content-holder h4 {
+    font-size: 24px;
+  }
+}
 .elevated-workwear .content-holder p {
   font-family: "Poppins-Light";
   font-size: 16px;
@@ -8292,6 +8538,11 @@ header .header-strip p {
   font-weight: 400;
   line-height: normal;
   color: #FCFAF8;
+}
+@media screen and (max-width: 767px) {
+  .elevated-workwear .content-holder p {
+    font-size: 14px;
+  }
 }
 .elevated-workwear .content-holder a {
   border-radius: 30px 0px 30px 30px;
@@ -8342,6 +8593,11 @@ header .header-strip p {
 .mid-data-holder {
   padding: 80px 30px 60px 0;
 }
+@media screen and (max-width: 767px) {
+  .mid-data-holder {
+    padding: 25px 0 25px 0;
+  }
+}
 .mid-data-holder .content-holder h4 {
   font-family: "PlayfairDisplay-Regular";
   font-size: 36px;
@@ -8351,6 +8607,11 @@ header .header-strip p {
   color: #101011;
   margin-bottom: 12px;
 }
+@media screen and (max-width: 767px) {
+  .mid-data-holder .content-holder h4 {
+    font-size: 24px;
+  }
+}
 .mid-data-holder .content-holder p {
   font-family: "Poppins-Light";
   font-size: 16px;
@@ -8359,14 +8620,33 @@ header .header-strip p {
   line-height: normal;
   color: #101011;
 }
+@media screen and (max-width: 767px) {
+  .mid-data-holder .content-holder p {
+    font-size: 14px;
+  }
+  .mid-data-holder .content-holder p.mb-40 {
+    margin-bottom: 25px;
+  }
+}
 
 .mid-creators {
   display: flex;
   align-items: flex-start;
 }
+@media screen and (max-width: 767px) {
+  .mid-creators {
+    justify-content: space-between;
+    margin-bottom: 20px !important;
+  }
+}
 .mid-creators .profile-holder {
   text-align: center;
   margin-right: 65px;
+}
+@media screen and (max-width: 767px) {
+  .mid-creators .profile-holder {
+    margin-right: 0;
+  }
 }
 .mid-creators .profile-holder:last-child {
   margin-right: 0;
@@ -8387,9 +8667,19 @@ header .header-strip p {
   font-size: 12px;
 }
 
+@media screen and (max-width: 767px) {
+  .tagline {
+    margin-bottom: 10px !important;
+  }
+}
 .tagline h6 {
   font-family: "Poppins-Medium";
   font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  .tagline h6 {
+    font-size: 16px;
+  }
 }
 
 .create-mid {
@@ -8397,11 +8687,22 @@ header .header-strip p {
   align-items: center;
   margin-bottom: 18px;
 }
+@media screen and (max-width: 767px) {
+  .create-mid {
+    margin-bottom: 10px;
+  }
+}
 .create-mid p {
   font-family: "Poppins-Medium";
   font-size: 18px;
   color: #101011;
   margin-right: 18px;
+}
+@media screen and (max-width: 767px) {
+  .create-mid p {
+    margin-right: 10px;
+    font-size: 16px;
+  }
 }
 .create-mid a {
   border-radius: 30px 0px 30px 30px;
@@ -8424,6 +8725,11 @@ header .header-strip p {
   font-size: 20px;
   margin-right: 10px;
 }
+@media screen and (max-width: 767px) {
+  .faq h4 {
+    font-size: 16px;
+  }
+}
 
 .mid-section {
   position: relative;
@@ -8432,9 +8738,20 @@ header .header-strip p {
   max-width: 450px;
   padding-top: 90px;
 }
+@media screen and (max-width: 767px) {
+  .mid-section .image-holder {
+    padding-top: 0px;
+  }
+}
 .mid-section .mid-pattern-top,
 .mid-section .mid-pattern-bottom {
   position: absolute;
+}
+@media screen and (max-width: 767px) {
+  .mid-section .mid-pattern-top,
+  .mid-section .mid-pattern-bottom {
+    z-index: -1;
+  }
 }
 .mid-section .mid-pattern-top {
   right: 0;
@@ -8450,6 +8767,11 @@ header .header-strip p {
   padding: 70px 0;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .stories {
+    padding: 25px 0;
+  }
+}
 .stories .pattern-1,
 .stories .pattern-2,
 .stories .pattern-3,
@@ -8457,6 +8779,14 @@ header .header-strip p {
   position: absolute;
   width: 50px;
   display: block;
+}
+@media screen and (max-width: 767px) {
+  .stories .pattern-1,
+  .stories .pattern-2,
+  .stories .pattern-3,
+  .stories .pattern-4 {
+    width: 20px;
+  }
 }
 .stories .pattern-1 img,
 .stories .pattern-2 img,
@@ -8494,6 +8824,11 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 12px;
 }
+@media screen and (max-width: 767px) {
+  .stories .content-holder h4 {
+    font-size: 24px;
+  }
+}
 .stories .content-holder p {
   font-family: "Poppins-Light";
   font-size: 16px;
@@ -8501,6 +8836,11 @@ header .header-strip p {
   font-weight: 400;
   line-height: normal;
   color: #FCFAF8;
+}
+@media screen and (max-width: 767px) {
+  .stories .content-holder p {
+    font-size: 14px;
+  }
 }
 .stories .carousal-holder .center-carousal {
   position: relative;
@@ -8537,12 +8877,24 @@ header .header-strip p {
   left: -75px;
   background-image: url("../images/prev.png");
 }
+@media screen and (max-width: 767px) {
+  .stories .carousal-holder .center-carousal .owl-nav .owl-prev {
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
 .stories .carousal-holder .center-carousal .owl-nav .owl-prev:hover {
   left: -80px;
 }
 .stories .carousal-holder .center-carousal .owl-nav .owl-next {
   right: -75px;
   background-image: url("../images/next.png");
+}
+@media screen and (max-width: 767px) {
+  .stories .carousal-holder .center-carousal .owl-nav .owl-next {
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 .stories .carousal-holder .center-carousal .owl-nav .owl-next:hover {
   right: -80px;
@@ -8556,6 +8908,11 @@ header .header-strip p {
   margin-top: 15px;
   display: none;
 }
+@media screen and (max-width: 767px) {
+  .stories .carousal-holder .center-carousal .owl-item .content {
+    margin-top: 10px;
+  }
+}
 .stories .carousal-holder .center-carousal .owl-item .content h3 {
   font-family: "Poppins-Medium";
   font-size: 28px;
@@ -8563,6 +8920,11 @@ header .header-strip p {
   font-weight: 400;
   line-height: normal;
   color: #FCFAF8;
+}
+@media screen and (max-width: 767px) {
+  .stories .carousal-holder .center-carousal .owl-item .content h3 {
+    font-size: 24px;
+  }
 }
 .stories .carousal-holder .center-carousal .owl-item .content h6 {
   font-family: "Poppins-Light";
@@ -8582,6 +8944,11 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 12px;
 }
+@media screen and (max-width: 767px) {
+  .stories .carousal-holder .center-carousal .owl-item .content p {
+    font-size: 14px;
+  }
+}
 .stories .carousal-holder .center-carousal .owl-item.center {
   transform: scale(1);
   opacity: 1;
@@ -8594,6 +8961,14 @@ header .header-strip p {
   border-top: 1px solid #FCFAF8;
 }
 
+@media screen and (max-width: 767px) {
+  .gallery {
+    padding: 15px 0;
+  }
+  .gallery .padding-0 {
+    padding: 0 15px !important;
+  }
+}
 .gallery .image-holder {
   position: relative;
 }
@@ -8603,6 +8978,11 @@ header .header-strip p {
   right: 0;
   bottom: 25px;
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .gallery .image-holder .title {
+    bottom: 15px;
+  }
 }
 .gallery .image-holder .title h5 {
   font-family: "Poppins-Medium";
@@ -8618,6 +8998,12 @@ header .header-strip p {
   border: 1px solid transparent;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
 }
+@media screen and (max-width: 767px) {
+  .gallery .image-holder .title h5 {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+}
 .gallery .image-holder:hover .title {
   bottom: 35px;
 }
@@ -8629,8 +9015,19 @@ header .header-strip p {
 .location {
   padding: 70px 0;
 }
+@media screen and (max-width: 767px) {
+  .location {
+    padding: 25px 0;
+  }
+}
 .location .content-holder {
   margin-bottom: 45px;
+}
+@media screen and (max-width: 767px) {
+  .location .content-holder {
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
 }
 .location .content-holder h4 {
   font-family: "PlayfairDisplay-Regular";
@@ -8641,6 +9038,11 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 12px;
 }
+@media screen and (max-width: 767px) {
+  .location .content-holder h4 {
+    font-size: 24px;
+  }
+}
 .location .content-holder p {
   font-family: "Poppins-Light";
   font-size: 16px;
@@ -8649,6 +9051,14 @@ header .header-strip p {
   line-height: normal;
   color: #FCFAF8;
   max-width: 450px;
+}
+@media screen and (max-width: 767px) {
+  .location .content-holder p {
+    font-size: 14px;
+  }
+  .location .content-holder p.mb-40 {
+    margin-bottom: 30px !important;
+  }
 }
 .location .medha-rating {
   max-width: 480px;
@@ -8661,6 +9071,11 @@ header .header-strip p {
   line-height: normal;
   color: #FCFAF8;
   margin-bottom: 5px;
+}
+@media screen and (max-width: 767px) {
+  .location .medha-rating .title h4 {
+    font-size: 16px;
+  }
 }
 .location .medha-rating .rating {
   margin-bottom: 8px;
@@ -8675,10 +9090,22 @@ header .header-strip p {
   margin-right: 13px;
   line-height: 20px;
 }
+@media screen and (max-width: 767px) {
+  .location .medha-rating .rating .rating-number {
+    font-size: 16px;
+  }
+}
 .location .medha-rating .rating img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .location .medha-rating .rating img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
 }
 .location .medha-rating .description p {
   font-family: "Poppins-Medium";
@@ -8688,6 +9115,11 @@ header .header-strip p {
   line-height: normal;
   color: #FCFAF8;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .location .medha-rating .description p {
+    font-size: 14px;
+  }
 }
 .location .medha-rating .address-holder {
   padding-top: 15px;
@@ -8705,6 +9137,11 @@ header .header-strip p {
   background-position: left 4px;
   width: calc(100% - 170px);
 }
+@media screen and (max-width: 767px) {
+  .location .medha-rating .address-holder .address {
+    padding-left: 30px;
+  }
+}
 .location .medha-rating .address-holder .address p {
   font-family: "Poppins-Medium";
   font-size: 16px;
@@ -8713,8 +9150,18 @@ header .header-strip p {
   line-height: normal;
   color: #FCFAF8;
 }
+@media screen and (max-width: 767px) {
+  .location .medha-rating .address-holder .address p {
+    font-size: 14px;
+  }
+}
 .location .location-rating {
   padding-left: 50px;
+}
+@media screen and (max-width: 767px) {
+  .location .location-rating {
+    padding-left: 0px;
+  }
 }
 
 /*# sourceMappingURL=master.css.map */
