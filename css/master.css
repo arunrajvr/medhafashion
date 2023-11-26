@@ -8357,7 +8357,7 @@ header .header-strip p {
 }
 @media screen and (max-width: 767px) {
   .insta-feed-holder .insta-feed {
-    height: 310px;
+    height: 255px;
   }
 }
 .insta-feed-holder .insta-color-icon {
