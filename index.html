@@ -17,7 +17,7 @@
 <body>
     <header class="bs-docs-nav navbar navbar-static-top home-page" id="top">
         <div class="header-strip ">
-            <p class="wow slideInUp">Shipping world wide, free shipping in India</p>
+            <p class="wow slideInUp">Free shipping in India. Shipping in Dubai, Malaysia and USA.</p>
         </div>
         <div class="container">
             <div class="flex space-between align-item-center mt-6 mb-6">
@@ -106,9 +106,9 @@
         </div>
     </section>
     <section class="tradition-content-holder">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-5">
+        <div class=" container-lg">
+            <div class="flex">
+                <div class="col-left">
                     <div class="image-holder image-big wow slideInLeft" data-wow-delay=".2s">
                         <img src="images/wedding.png" alt="">
                         <div class="title-holder">
@@ -117,11 +117,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-7">
+                <div class="col-right">
                     <div class="pattern">
                         <img src="images/pattern.png" alt="">
                     </div>
-                    <div class="content-holder mb-30">
+                    <div class="content-holder mb-60">
                         <h4 class="wow slideInDown" data-wow-delay=".2s">Our Tradition, Our Legacy</h4>
                         <p class="wow slideInDown" data-wow-delay=".4s">We have been trusted with countless weddings &
                             will do the same in times ahead. India being a
@@ -133,7 +133,7 @@
                             <div class="item">
                                 <div class="img-holder">
                                     <img src="images/haldi.png" alt="">
-                                    <div class="link">
+                                    <div class="link transition-fast">
                                         <a href="javascript:;">View More</a>
                                     </div>
                                 </div>
@@ -144,7 +144,7 @@
                             <div class="item">
                                 <div class="img-holder">
                                     <img src="images/sangeeth.png" alt="">
-                                    <div class="link">
+                                    <div class="link transition-fast">
                                         <a href="javascript:;">View More</a>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@
                             <div class="item">
                                 <div class="img-holder">
                                     <img src="images/haldi.png" alt="">
-                                    <div class="link">
+                                    <div class="link transition-fast">
                                         <a href="javascript:;">View More</a>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                             <div class="item">
                                 <div class="img-holder">
                                     <img src="images/engagement.png" alt="">
-                                    <div class="link">
+                                    <div class="link transition-fast">
                                         <a href="javascript:;">View More</a>
                                     </div>
                                 </div>
@@ -236,14 +236,14 @@
         </div>
     </section>
     <section class="elevated-workwear bg-black">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-5">
+        <div class="container-lg">
+            <div class="flex">
+                <div class="col-left">
                     <div class="image-holder wow slideInLeft" data-wow-delay=".2s">
                         <img src="images/elevated-img.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-7">
+                <div class="col-right">
                     <div class="content-holder">
                         <h4 class="wow slideInDown" data-wow-delay=".2s">Elevated Workwear</h4>
                         <p class="mb-30 wow slideInDown" data-wow-delay=".4s">Your work wardrobe should inspire
@@ -251,8 +251,8 @@
                             collection, you
                             can effortlessly achieve a polished and professional look without compromising on your
                             personal style.</p>
-                        <a class="mb-30 wow slideInDown" data-wow-delay=".6s" href="javascript:;">EXPLORE</a>
-                        <div class="flex relative">
+                        <a class="mb-50 wow slideInDown" data-wow-delay=".6s" href="javascript:;">EXPLORE</a>
+                        <div class="flex relative hidden-sm hidden-xs">
                             <div class="image-holder elevated-1 wow slideInDown" data-wow-delay=".6s">
                                 <img src="images/elevated-2.png" alt="">
                             </div>
@@ -410,9 +410,9 @@
         </div>
     </section>
     <section class="gallery">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 padding-0">
+        <div class="container-lg">
+            <div class="flex">
+                <div class="col-left">
                     <div class="image-holder wow fadeIn" data-wow-delay=".2s">
                         <img src="images/saree.png" alt="">
                         <div class="title transition-fast">
@@ -420,7 +420,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 padding-0">
+                <div class="col-right">
                     <div class="flex">
                         <div class="image-holder wow fadeIn" data-wow-delay=".4s">
                             <img src="images/lehenga.png" alt="">
@@ -457,8 +457,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5">
-                    <div class="image-holder wow slideInLeft" data-wow-delay=".2s">
+                    <div class="image-holder wow slideInLeft relative" data-wow-delay=".2s">
                         <img src="images/medha-location.png" alt="">
+                        <div class="contact-pattern">
+                            <img src="images/contact-pattern.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7">
@@ -539,10 +542,10 @@
             autoplayTimeout: 2000,
             responsive: {
                 0: {
-                    items: 3
+                    items: 2
                 },
                 600: {
-                    items: 3
+                    items: 2
                 },
                 1000: {
                     items: 3
@@ -569,6 +572,10 @@
                 767: {
                     items: 1,
                     margin: 15,
+                },
+                768: {
+                    items: 2,
+                    margin: 105,
                 }
             }
         });
