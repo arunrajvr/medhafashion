@@ -7466,7 +7466,7 @@ button.close {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .container-medium {
     padding: 0 35px;
   }
@@ -7498,7 +7498,7 @@ ul {
   margin-left: -30px;
   margin-right: -30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .row {
     margin-left: -15px;
     margin-right: -15px;
@@ -7556,7 +7556,7 @@ ul {
   padding-left: 30px;
   padding-right: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .col-xs-1,
   .col-sm-1,
   .col-md-1,
@@ -7658,10 +7658,14 @@ body {
   border-radius: 30px 0px 30px 30px;
   display: inline-block;
   font-family: "Poppins-Light";
+  font-size: 16px;
+  line-height: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .btn-design {
     padding: 8px 20px;
+    line-height: 18px;
+    font-size: 14px;
   }
 }
 
@@ -7701,6 +7705,14 @@ body {
   margin-bottom: 40px;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
 .mb-70 {
   margin-bottom: 70px;
 }
@@ -7713,7 +7725,7 @@ body {
   margin-bottom: 60px !important;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .margin-bottom-60 {
     margin-bottom: 50px !important;
   }
@@ -7722,7 +7734,7 @@ body {
   margin-bottom: 80px !important;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .margin-bottom-80 {
     margin-bottom: 50px !important;
   }
@@ -7747,7 +7759,7 @@ body {
   padding-bottom: 100px !important;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .padding-bottom-100 {
     padding-bottom: 50px !important;
   }
@@ -7775,18 +7787,18 @@ body {
 .navbar-brand img {
   width: 210px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .navbar-brand img {
     width: 100px !important;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .navbar-header {
     float: left;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   nav {
     float: right;
   }
@@ -7848,7 +7860,7 @@ body {
   display: inline-block;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .navbar-right li {
     margin-right: 15px;
   }
@@ -7868,7 +7880,7 @@ body {
   color: #222;
   position: relative;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .navbar-right li a img {
     width: 20px !important;
   }
@@ -7949,7 +7961,7 @@ body {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .main-section-holder {
     display: block;
   }
@@ -7958,7 +7970,7 @@ body {
   max-width: 530px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .menu-btn-holder {
     width: 18px;
     height: 12px;
@@ -8026,7 +8038,12 @@ header .header-strip {
 header .header-strip p {
   color: #fff;
   font-size: 16px;
-  font-family: "Poppins-Light";
+  font-family: "Poppins-Regular";
+}
+@media screen and (max-width: 820px) {
+  header .header-strip p {
+    font-size: 12px;
+  }
 }
 
 .banner-image-holder .overlay {
@@ -8041,7 +8058,7 @@ header .header-strip p {
   max-width: 870px;
   z-index: 2;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .banner-image-holder .banner-content {
     top: 20px;
     left: 35px;
@@ -8059,7 +8076,7 @@ header .header-strip p {
   line-height: normal;
   color: #FCFAF8;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .banner-image-holder .banner-content h1 {
     font-size: 22px;
   }
@@ -8068,7 +8085,7 @@ header .header-strip p {
 .quality-content-holder {
   margin: 80px 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .quality-content-holder {
     margin: 25px 0;
   }
@@ -8086,13 +8103,42 @@ header .header-strip p {
   line-height: normal;
   margin: 25px 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .content-holder.quality-text h2 {
     font-size: 20px;
     margin: 5px 0;
   }
 }
 
+@media screen and (max-width: 820px) {
+  .tradition-content-holder {
+    padding: 0 15px;
+  }
+  .tradition-content-holder .flex {
+    display: block;
+  }
+}
+.tradition-content-holder .col-left {
+  width: 40%;
+}
+@media screen and (max-width: 820px) {
+  .tradition-content-holder .col-left {
+    width: 100%;
+  }
+}
+.tradition-content-holder .col-right {
+  width: 60%;
+  padding-left: 65px;
+}
+@media screen and (max-width: 820px) {
+  .tradition-content-holder .col-right {
+    width: 100%;
+    padding-left: 0;
+  }
+  .tradition-content-holder .col-right .mb-60 {
+    margin-bottom: 30px;
+  }
+}
 .tradition-content-holder .image-holder.image-big {
   position: relative;
 }
@@ -8109,20 +8155,20 @@ header .header-strip p {
   bottom: 0;
   padding: 35px 50px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .image-holder .title-holder {
     padding: 20px;
   }
 }
 .tradition-content-holder .image-holder .title-holder h3 {
   color: #FCFAF8;
-  font-family: "Poppins-Light";
+  font-family: "Poppins-Regular";
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .image-holder .title-holder h3 {
     font-size: 20px;
   }
@@ -8131,26 +8177,33 @@ header .header-strip p {
   border-radius: 30px 0px 30px 30px;
   background-color: #BA975F;
   color: #FCFAF8;
-  font-family: "Poppins-Light";
-  font-size: 14px;
-  padding: 8px 16px;
+  font-family: "Poppins-Medium";
+  font-size: 16px;
+  padding: 9px 25px;
+  line-height: 30px;
   font-style: normal;
+  text-transform: uppercase;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .image-holder .title-holder a {
     padding: 8px 13px;
+    line-height: 18px;
+    font-size: 14px;
   }
 }
 .tradition-content-holder .pattern {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .pattern {
     margin-bottom: 0px;
   }
 }
 .tradition-content-holder .pattern img {
   max-width: 100%;
+}
+.tradition-content-holder .content-holder {
+  max-width: 635px;
 }
 .tradition-content-holder .content-holder h4 {
   font-family: "PlayfairDisplay-Regular";
@@ -8161,20 +8214,20 @@ header .header-strip p {
   color: #101011;
   margin-bottom: 12px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .content-holder h4 {
     font-size: 24px;
   }
 }
 .tradition-content-holder .content-holder p {
-  font-family: "Poppins-Light";
-  font-size: 16px;
+  font-family: "Poppins-Regular";
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #101011;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .content-holder p {
     font-size: 14px;
   }
@@ -8187,13 +8240,13 @@ header .header-strip p {
   margin-top: 5px;
   text-align: center;
   color: #101011;
-  font-family: "Poppins-Light";
-  font-size: 16px;
+  font-family: "Poppins-Regular";
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .carousal-holder .item .title h3 {
     font-size: 14px;
   }
@@ -8209,7 +8262,7 @@ header .header-strip p {
   text-align: center;
   opacity: 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .carousal-holder .item .img-holder .link {
     opacity: 1;
   }
@@ -8218,12 +8271,12 @@ header .header-strip p {
   border-radius: 30px 0px 30px 30px;
   background-color: #BA975F;
   color: #FCFAF8;
-  font-family: "Poppins-Light";
-  font-size: 12px;
-  padding: 5px 12px;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  padding: 6px 15px;
   font-style: normal;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tradition-content-holder .carousal-holder .item .img-holder .link a {
     background-color: rgba(186, 151, 95, 0.7);
     padding: 5px 10px;
@@ -8255,11 +8308,14 @@ header .header-strip p {
   padding-top: 90px;
   padding-bottom: 250px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft.craft-padding {
     padding-top: 25px;
     padding-bottom: 65px;
   }
+}
+.craft .content-holder {
+  max-width: 556px;
 }
 .craft .content-holder h4 {
   font-family: "PlayfairDisplay-Regular";
@@ -8270,7 +8326,7 @@ header .header-strip p {
   color: #101011;
   margin-bottom: 12px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft .content-holder h4 {
     font-size: 24px;
   }
@@ -8283,12 +8339,12 @@ header .header-strip p {
   line-height: normal;
   color: #101011;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft .content-holder p {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft .content-holder.mb-70 {
     margin-bottom: 25px;
   }
@@ -8304,7 +8360,7 @@ header .header-strip p {
   right: 0;
   bottom: 65px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft .social-media-icons {
     position: relative;
     top: 35px;
@@ -8316,7 +8372,7 @@ header .header-strip p {
 .craft .social-media-icons img {
   margin-right: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft .social-media-icons img {
     margin-right: 10px;
     width: 35px;
@@ -8334,7 +8390,7 @@ header .header-strip p {
   color: #101011;
   margin-right: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft .social-media-icons .label {
     margin-right: 5px;
   }
@@ -8346,7 +8402,7 @@ header .header-strip p {
   padding: 15px;
   background-color: #FCFAF8;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .insta-feed-holder {
     width: 100%;
   }
@@ -8355,7 +8411,7 @@ header .header-strip p {
   height: 473px;
   overflow: hidden;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .insta-feed-holder .insta-feed {
     height: 255px;
   }
@@ -8367,7 +8423,7 @@ header .header-strip p {
   transform: translateX(-50%);
   z-index: 999;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .insta-feed-holder .insta-color-icon {
     transform: none;
     left: -10px;
@@ -8385,7 +8441,7 @@ header .header-strip p {
   right: -45px;
   z-index: 999;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .insta-feed-holder .load-more-btn {
     right: 20px;
   }
@@ -8406,7 +8462,7 @@ header .header-strip p {
   right: -80px;
   z-index: 999;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .insta-feed-holder .view-on-insta-btn {
     right: -10px;
   }
@@ -8423,7 +8479,7 @@ header .header-strip p {
 .craft-video-holder {
   position: relative;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft-video-holder {
     padding-top: 40px;
   }
@@ -8440,7 +8496,7 @@ header .header-strip p {
   background-position-x: 15px;
   background-repeat: no-repeat;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .craft-video-holder::before {
     top: 10px;
     bottom: -35px;
@@ -8464,7 +8520,7 @@ header .header-strip p {
   bottom: 22px;
 }
 .craft-video-holder .content-holder p {
-  font-family: "Poppins-Light";
+  font-family: "Poppins-Regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8490,10 +8546,20 @@ header .header-strip p {
   text-align: center;
   background-color: #BA975F;
 }
+@media screen and (max-width: 820px) {
+  .footer-section .copyright-holder .container {
+    padding: 0;
+  }
+}
 .footer-section .copyright-holder p {
   color: #fff;
   font-size: 14px;
   font-family: "Poppins-Light";
+}
+@media screen and (max-width: 820px) {
+  .footer-section .copyright-holder p {
+    font-size: 13px;
+  }
 }
 .footer-section .copyright-holder p span {
   padding-left: 10px;
@@ -8502,19 +8568,44 @@ header .header-strip p {
 }
 .footer-section .copyright-holder p span:first-child {
   border: none;
+  padding-left: 0;
+  margin-left: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .elevated-workwear {
-    padding: 25px 0;
+    padding: 25px 15px;
+  }
+  .elevated-workwear .flex {
+    display: block;
+  }
+}
+.elevated-workwear .col-left {
+  width: 40%;
+}
+@media screen and (max-width: 820px) {
+  .elevated-workwear .col-left {
+    width: 100%;
+  }
+}
+.elevated-workwear .col-right {
+  width: 60%;
+  padding-left: 130px;
+}
+@media screen and (max-width: 820px) {
+  .elevated-workwear .col-right {
+    width: 100%;
+    padding-left: 0;
   }
 }
 .elevated-workwear .content-holder {
-  padding: 70px 130px;
+  padding: 70px 0;
+  max-width: 538px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .elevated-workwear .content-holder {
-    padding: 25px 10px 0 10px;
+    padding-top: 25px;
+    padding-bottom: 0;
   }
 }
 .elevated-workwear .content-holder h4 {
@@ -8526,20 +8617,20 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 12px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .elevated-workwear .content-holder h4 {
     font-size: 24px;
   }
 }
 .elevated-workwear .content-holder p {
   font-family: "Poppins-Light";
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #FCFAF8;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .elevated-workwear .content-holder p {
     font-size: 14px;
   }
@@ -8548,24 +8639,35 @@ header .header-strip p {
   border-radius: 30px 0px 30px 30px;
   background-color: #BA975F;
   color: #FCFAF8;
-  font-family: "Poppins-Light";
-  font-size: 12px;
-  padding: 5px 12px;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  padding: 9px 25px;
+  line-height: 30px;
   font-style: normal;
   display: inline-block;
 }
+@media screen and (max-width: 820px) {
+  .elevated-workwear .content-holder a {
+    padding: 9px 20px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  .elevated-workwear .content-holder a.mb-50 {
+    margin-bottom: 0;
+  }
+}
 .elevated-workwear .content-holder .elevated-1 {
-  width: 127px;
+  width: 220px;
   margin-right: 20px;
 }
 .elevated-workwear .content-holder .elevated-2 {
-  width: 100px;
+  width: 150px;
   margin-top: -50px;
 }
 .elevated-workwear .content-holder .elevated-pattern-1 {
   position: absolute;
-  bottom: -40px;
-  left: 150px;
+  bottom: -50px;
+  left: 300px;
   width: 80px;
 }
 .elevated-workwear .content-holder .elevated-pattern-1 img {
@@ -8593,7 +8695,7 @@ header .header-strip p {
 .mid-data-holder {
   padding: 80px 30px 60px 0;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .mid-data-holder {
     padding: 25px 0 25px 0;
   }
@@ -8607,7 +8709,7 @@ header .header-strip p {
   color: #101011;
   margin-bottom: 12px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .mid-data-holder .content-holder h4 {
     font-size: 24px;
   }
@@ -8620,7 +8722,7 @@ header .header-strip p {
   line-height: normal;
   color: #101011;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .mid-data-holder .content-holder p {
     font-size: 14px;
   }
@@ -8633,7 +8735,7 @@ header .header-strip p {
   display: flex;
   align-items: flex-start;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .mid-creators {
     justify-content: space-between;
     margin-bottom: 20px !important;
@@ -8643,7 +8745,7 @@ header .header-strip p {
   text-align: center;
   margin-right: 65px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .mid-creators .profile-holder {
     margin-right: 0;
   }
@@ -8667,7 +8769,7 @@ header .header-strip p {
   font-size: 12px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tagline {
     margin-bottom: 10px !important;
   }
@@ -8676,7 +8778,7 @@ header .header-strip p {
   font-family: "Poppins-Medium";
   font-size: 18px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .tagline h6 {
     font-size: 16px;
   }
@@ -8687,7 +8789,7 @@ header .header-strip p {
   align-items: center;
   margin-bottom: 18px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .create-mid {
     margin-bottom: 10px;
   }
@@ -8698,7 +8800,7 @@ header .header-strip p {
   color: #101011;
   margin-right: 18px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .create-mid p {
     margin-right: 10px;
     font-size: 16px;
@@ -8709,11 +8811,19 @@ header .header-strip p {
   background-color: #BA975F;
   color: #FCFAF8;
   font-family: "Poppins-Regular";
-  font-size: 14px;
-  padding: 8px 15px;
+  font-size: 16px;
+  padding: 9px 25px;
+  line-height: 30px;
   font-style: normal;
   display: inline-block;
   text-transform: uppercase;
+}
+@media screen and (max-width: 820px) {
+  .create-mid a {
+    padding: 9px 20px;
+    line-height: 18px;
+    font-size: 14px;
+  }
 }
 
 .faq {
@@ -8725,7 +8835,7 @@ header .header-strip p {
   font-size: 20px;
   margin-right: 10px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .faq h4 {
     font-size: 16px;
   }
@@ -8738,7 +8848,7 @@ header .header-strip p {
   max-width: 450px;
   padding-top: 90px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .mid-section .image-holder {
     padding-top: 0px;
   }
@@ -8747,7 +8857,7 @@ header .header-strip p {
 .mid-section .mid-pattern-bottom {
   position: absolute;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .mid-section .mid-pattern-top,
   .mid-section .mid-pattern-bottom {
     z-index: -1;
@@ -8767,7 +8877,7 @@ header .header-strip p {
   padding: 70px 0;
   position: relative;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories {
     padding: 25px 0;
   }
@@ -8780,7 +8890,7 @@ header .header-strip p {
   width: 50px;
   display: block;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .pattern-1,
   .stories .pattern-2,
   .stories .pattern-3,
@@ -8824,20 +8934,20 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 12px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .content-holder h4 {
     font-size: 24px;
   }
 }
 .stories .content-holder p {
-  font-family: "Poppins-Light";
-  font-size: 16px;
+  font-family: "Poppins-Regular";
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #FCFAF8;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .content-holder p {
     font-size: 14px;
   }
@@ -8877,7 +8987,7 @@ header .header-strip p {
   left: -75px;
   background-image: url("../images/prev.png");
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .carousal-holder .center-carousal .owl-nav .owl-prev {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
@@ -8886,7 +8996,7 @@ header .header-strip p {
 .stories .carousal-holder .center-carousal .owl-nav .owl-prev:hover {
   left: -80px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .carousal-holder .center-carousal .owl-nav .owl-prev:hover {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
@@ -8896,7 +9006,7 @@ header .header-strip p {
   right: -75px;
   background-image: url("../images/next.png");
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .carousal-holder .center-carousal .owl-nav .owl-next {
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
@@ -8905,7 +9015,7 @@ header .header-strip p {
 .stories .carousal-holder .center-carousal .owl-nav .owl-next:hover {
   right: -80px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .carousal-holder .center-carousal .owl-nav .owl-next:hover {
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
@@ -8920,7 +9030,7 @@ header .header-strip p {
   margin-top: 15px;
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .carousal-holder .center-carousal .owl-item .content {
     margin-top: 10px;
   }
@@ -8933,22 +9043,13 @@ header .header-strip p {
   line-height: normal;
   color: #FCFAF8;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .stories .carousal-holder .center-carousal .owl-item .content h3 {
     font-size: 24px;
   }
 }
 .stories .carousal-holder .center-carousal .owl-item .content h6 {
-  font-family: "Poppins-Light";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: #FCFAF8;
-  margin-bottom: 12px;
-}
-.stories .carousal-holder .center-carousal .owl-item .content p {
-  font-family: "Poppins-Light";
+  font-family: "Poppins-Regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8956,7 +9057,16 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 12px;
 }
-@media screen and (max-width: 767px) {
+.stories .carousal-holder .center-carousal .owl-item .content p {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #FCFAF8;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 820px) {
   .stories .carousal-holder .center-carousal .owl-item .content p {
     font-size: 14px;
   }
@@ -8973,13 +9083,29 @@ header .header-strip p {
   border-top: 1px solid #FCFAF8;
 }
 
-@media screen and (max-width: 767px) {
-  .gallery {
-    padding: 15px 0;
+@media screen and (max-width: 820px) {
+  .gallery .container-lg > .flex {
+    flex-direction: column;
   }
-  .gallery .padding-0 {
-    padding: 0 15px !important;
+}
+.gallery .col-left {
+  width: 50%;
+}
+@media screen and (max-width: 820px) {
+  .gallery .col-left {
+    width: 100%;
   }
+}
+.gallery .col-right {
+  width: 50%;
+}
+@media screen and (max-width: 820px) {
+  .gallery .col-right {
+    width: 100%;
+  }
+}
+.gallery .col-right .image-holder {
+  width: 50%;
 }
 .gallery .image-holder {
   position: relative;
@@ -8991,7 +9117,7 @@ header .header-strip p {
   bottom: 25px;
   text-align: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .gallery .image-holder .title {
     bottom: 15px;
   }
@@ -9010,7 +9136,7 @@ header .header-strip p {
   border: 1px solid transparent;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .gallery .image-holder .title h5 {
     font-size: 16px;
     padding: 5px 15px;
@@ -9025,9 +9151,20 @@ header .header-strip p {
 }
 
 .location {
-  padding: 70px 0;
+  padding: 80px 0;
 }
-@media screen and (max-width: 767px) {
+.location .contact-pattern {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+@media screen and (max-width: 820px) {
+  .location .contact-pattern {
+    top: -10px;
+    left: -10px;
+  }
+}
+@media screen and (max-width: 820px) {
   .location {
     padding: 25px 0;
   }
@@ -9035,7 +9172,7 @@ header .header-strip p {
 .location .content-holder {
   margin-bottom: 45px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .content-holder {
     margin-bottom: 0px;
     margin-top: 15px;
@@ -9050,7 +9187,7 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 12px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .content-holder h4 {
     font-size: 24px;
   }
@@ -9064,7 +9201,7 @@ header .header-strip p {
   color: #FCFAF8;
   max-width: 450px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .content-holder p {
     font-size: 14px;
   }
@@ -9084,7 +9221,7 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 5px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .medha-rating .title h4 {
     font-size: 16px;
   }
@@ -9102,7 +9239,7 @@ header .header-strip p {
   margin-right: 13px;
   line-height: 20px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .medha-rating .rating .rating-number {
     font-size: 16px;
   }
@@ -9112,7 +9249,7 @@ header .header-strip p {
   height: 20px;
   margin-right: 10px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .medha-rating .rating img {
     width: 15px;
     height: 15px;
@@ -9128,7 +9265,7 @@ header .header-strip p {
   color: #FCFAF8;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .medha-rating .description p {
     font-size: 14px;
   }
@@ -9149,7 +9286,7 @@ header .header-strip p {
   background-position: left 4px;
   width: calc(100% - 170px);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .medha-rating .address-holder .address {
     padding-left: 30px;
   }
@@ -9162,7 +9299,7 @@ header .header-strip p {
   line-height: normal;
   color: #FCFAF8;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .medha-rating .address-holder .address p {
     font-size: 14px;
   }
@@ -9170,7 +9307,7 @@ header .header-strip p {
 .location .location-rating {
   padding-left: 50px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 820px) {
   .location .location-rating {
     padding-left: 0px;
   }
