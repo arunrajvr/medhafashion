@@ -8559,6 +8559,9 @@ header {
 
       .img-holder {
         position: relative;
+        img{
+          border-radius: 50px 0;
+        }
 
         .link {
           position: absolute;
@@ -8994,11 +8997,17 @@ header {
     .elevated-1 {
       width: 220px;
       margin-right: 20px;
+      img{
+        border-radius: 50px 0;;
+      }
     }
 
     .elevated-2 {
       width: 150px;
       margin-top: -50px;
+      img{
+        border-radius: 50px 0;;
+      }
     }
 
     .elevated-pattern-1 {
@@ -9377,8 +9386,15 @@ header {
       }
 
       .owl-item {
-        transform: scale(.9);
+        transform: scale(.8);
         opacity: .4;
+        .item{
+          .img-holder{
+            img{
+              border-radius: 250px 250px 0 0 ;
+            }
+          }
+        }
 
         .content {
           text-align: center;
@@ -9398,7 +9414,7 @@ header {
             color: $medhaWhite;
 
             @media screen and (max-width: 820px) {
-              font-size: 24px;
+              font-size: 20px;
             }
           }
 
@@ -9410,6 +9426,9 @@ header {
             line-height: normal;
             color: $medhaWhite;
             margin-bottom: 12px;
+            @media screen and (max-width: 820px) {
+              font-size: 14px;
+            }
           }
 
           p {
@@ -9430,6 +9449,9 @@ header {
         &.center {
           transform: scale(1);
           opacity: 1;
+          img{
+            border: 6px solid $medhaGold;
+          }
 
           .content {
             display: block;
