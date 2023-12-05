@@ -8060,9 +8060,9 @@ header .header-strip p {
 }
 @media screen and (max-width: 820px) {
   .banner-image-holder .banner-content {
-    top: 20px;
-    left: 35px;
-    right: 100px;
+    top: 15px;
+    left: 15px;
+    right: 15px;
   }
   .banner-image-holder .banner-content .mt-48 {
     margin-top: 15px;
@@ -8855,7 +8855,7 @@ header .header-strip p {
 }
 .mid-section .image-holder {
   max-width: 450px;
-  padding-top: 90px;
+  padding-top: 95px;
 }
 @media screen and (max-width: 820px) {
   .mid-section .image-holder {
