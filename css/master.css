@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url(../plugin/animate/css/animate.css);
-@import url(../fonts/playfair/stylesheet.css);
 @import url(../plugin/owl-carosel/css/owl.carousel.min.css);
 @import url(../plugin/owl-carosel/css/owl.theme.default.min.css);
 html {
@@ -8075,7 +8074,7 @@ header .header-strip p {
   }
 }
 .banner-image-holder .banner-content h1 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Playfair Display", serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -8102,7 +8101,7 @@ header .header-strip p {
 }
 .content-holder.quality-text h2 {
   text-align: center;
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -8213,7 +8212,7 @@ header .header-strip p {
   max-width: 635px;
 }
 .tradition-content-holder .content-holder h4 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -8329,7 +8328,7 @@ header .header-strip p {
   max-width: 556px;
 }
 .craft .content-holder h4 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -8621,7 +8620,7 @@ header .header-strip p {
   }
 }
 .elevated-workwear .content-holder h4 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -8722,7 +8721,7 @@ header .header-strip p {
   }
 }
 .mid-data-holder .content-holder h4 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -8953,7 +8952,7 @@ header .header-strip p {
   margin: 0 auto;
 }
 .stories .content-holder h4 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -9217,7 +9216,7 @@ header .header-strip p {
   }
 }
 .location .content-holder h4 {
-  font-family: "PlayfairDisplay-Regular";
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
