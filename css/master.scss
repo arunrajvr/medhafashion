@@ -5,7 +5,7 @@ $medhaWhite: #FCFAF8;
 $medhaBlack: #101011;
 
 @import url(../plugin/animate/css/animate.css);
-@import url(../fonts/poppins/stylesheet.css);
+// @import url(../fonts/poppins/stylesheet.css);
 @import url(../fonts/playfair/stylesheet.css);
 @import url(../plugin/owl-carosel/css/owl.carousel.min.css);
 @import url(../plugin/owl-carosel/css/owl.theme.default.min.css);
@@ -7919,7 +7919,8 @@ body {
   padding: 9px 25px;
   border-radius: 30px 0px 30px 30px;
   display: inline-block;
-  font-family: 'Poppins-Light';
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 30px;
 
@@ -7968,6 +7969,9 @@ body {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+.pb-50 {
+  padding-bottom: 50px !important;
 }
 
 .mb-60 {
@@ -8140,7 +8144,7 @@ body {
 
 .navbar-right li a {
   padding: 0;
-  font-family: 'Poppins-Regular';
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -8323,7 +8327,8 @@ header {
     p {
       color: #fff;
       font-size: 16px;
-      font-family: 'Poppins-Regular';
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
       @media screen and (max-width: 820px) {
         font-size: 12px;
       }
@@ -8346,9 +8351,10 @@ header {
     z-index: 2;
 
     @media screen and (max-width: 820px) {
-      top: 15px;
+      top: 40px;
       left: 15px;
       right: 15px;
+      max-width: 250px;
 
       .mt-48 {
         margin-top: 15px;
@@ -8458,7 +8464,7 @@ header {
 
       h3 {
         color: $medhaWhite;
-        font-family: 'Poppins-Regular';
+        font-family: 'Poppins', sans-serif;
         font-size: 26px;
         font-style: normal;
         font-weight: 400;
@@ -8473,7 +8479,8 @@ header {
         border-radius: 30px 0px 30px 30px;
         background-color: $medhaGold;
         color: $medhaWhite;
-        font-family: 'Poppins-Medium';
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
         font-size: 16px;
         padding: 9px 25px;
         line-height: 30px;
@@ -8519,7 +8526,7 @@ header {
     }
 
     p {
-      font-family: 'Poppins-Regular';
+      font-family: 'Poppins', sans-serif;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -8545,7 +8552,7 @@ header {
           margin-top: 5px;
           text-align: center;
           color: $medhaBlack;
-          font-family: 'Poppins-Regular';
+          font-family: 'Poppins', sans-serif;
           font-size: 18px;
           font-style: normal;
           font-weight: 400;
@@ -8579,7 +8586,8 @@ header {
             border-radius: 30px 0px 30px 30px;
             background-color: $medhaGold;
             color: $medhaWhite;
-            font-family: 'Poppins-Regular';
+            font-family: 'Poppins', sans-serif;
+            font-weight:400 ;
             font-size: 14px;
             padding: 6px 15px;
             font-style: normal;
@@ -8650,8 +8658,8 @@ header {
     }
 
     p {
-      font-family: 'Poppins-Light';
-      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -8688,7 +8696,7 @@ header {
       justify-content: space-around;
     }
 
-    img {
+    a {
       margin-right: 30px;
 
       @media screen and (max-width: 820px) {
@@ -8702,7 +8710,7 @@ header {
     }
 
     .label {
-      font-family: 'Poppins-Regular';
+      font-family: 'Poppins', sans-serif;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
@@ -8847,7 +8855,7 @@ header {
     bottom: 22px;
 
     p {
-      font-family: 'Poppins-Regular';
+      font-family: 'Poppins', sans-serif;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
@@ -8889,7 +8897,8 @@ header {
     p {
       color: #fff;
       font-size: 14px;
-      font-family: 'Poppins-Light';
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
       @media screen and (max-width: 820px) {
         font-size: 13px;
       }
@@ -8960,15 +8969,17 @@ header {
     }
 
     p {
-      font-family: 'Poppins-Light';
+      font-family: 'Poppins', sans-serif;
       font-size: 18px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 300;
       line-height: normal;
       color: $medhaWhite;
 
       @media screen and (max-width: 820px) {
         font-size: 14px;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
       }
     }
 
@@ -8976,7 +8987,8 @@ header {
       border-radius: 30px 0px 30px 30px;
       background-color: $medhaGold;
       color: $medhaWhite;
-      font-family: 'Poppins-Regular';
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
       font-size: 14px;
       padding: 9px 25px;
       line-height: 30px;
@@ -9068,10 +9080,10 @@ header {
     }
 
     p {
-      font-family: 'Poppins-Light';
-      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 300;
       line-height: normal;
       color: $medhaBlack;
 
@@ -9117,12 +9129,14 @@ header {
 
     .name {
       h5 {
-        font-family: 'Poppins-Medium';
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
         font-size: 12px;
       }
 
       p {
-        font-family: 'Poppins-Light';
+        font-family: 'Poppins', sans-serif;
+        font-kerning: 300;
         font-size: 12px;
       }
     }
@@ -9135,7 +9149,8 @@ header {
   }
 
   h6 {
-    font-family: 'Poppins-Medium';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
     font-size: 18px;
 
     @media screen and (max-width: 820px) {
@@ -9154,7 +9169,8 @@ header {
   }
 
   p {
-    font-family: 'Poppins-Medium';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-size: 18px;
     color: $medhaBlack;
     margin-right: 18px;
@@ -9169,7 +9185,8 @@ header {
     border-radius: 30px 0px 30px 30px;
     background-color: $medhaGold;
     color: $medhaWhite;
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     padding: 9px 25px;
     line-height: 30px;
@@ -9187,7 +9204,8 @@ header {
 
 .faq {
   h4 {
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 20px;
     margin-right: 10px;
 
@@ -9299,7 +9317,7 @@ header {
     }
 
     p {
-      font-family: 'Poppins-Regular';
+      font-family: 'Poppins', sans-serif;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -9406,10 +9424,10 @@ header {
           }
 
           h3 {
-            font-family: 'Poppins-Medium';
+            font-family: 'Poppins', sans-serif;
             font-size: 28px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 500;
             line-height: normal;
             color: $medhaWhite;
 
@@ -9419,7 +9437,7 @@ header {
           }
 
           h6 {
-            font-family: 'Poppins-Regular';
+            font-family: 'Poppins', sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -9432,7 +9450,7 @@ header {
           }
 
           p {
-            font-family: 'Poppins-Regular';
+            font-family: 'Poppins', sans-serif;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
@@ -9511,10 +9529,10 @@ header {
       }
 
       h5 {
-        font-family: 'Poppins-Medium';
+        font-family: 'Poppins', sans-serif;
         font-size: 20px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: normal;
         color: $medhaBlack;
         background-color: rgba(255, 255, 255, 0.6);
@@ -9585,10 +9603,10 @@ header {
     }
 
     p {
-      font-family: 'Poppins-Light';
+      font-family: 'Poppins', sans-serif;
       font-size: 16px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 300;
       line-height: normal;
       color: $medhaWhite;
       max-width: 450px;
@@ -9608,7 +9626,7 @@ header {
 
     .title {
       h4 {
-        font-family: 'Poppins-Medium';
+        font-family: 'Poppins', sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -9626,10 +9644,10 @@ header {
       margin-bottom: 8px;
 
       .rating-number {
-        font-family: 'Poppins-Medium';
+        font-family: 'Poppins', sans-serif;
         font-size: 20px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: normal;
         color: $medhaWhite;
         margin-right: 13px;
@@ -9655,10 +9673,10 @@ header {
 
     .description {
       p {
-        font-family: 'Poppins-Medium';
+        font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: normal;
         color: $medhaWhite;
         margin-bottom: 10px;
@@ -9671,12 +9689,22 @@ header {
 
     .address-holder {
       padding-top: 15px;
+      @media screen and (max-width: 820px) {
+       flex-direction: column;
+      }
 
       .map {
         border-radius: 2px;
         overflow: hidden;
         margin-right: 18px;
         width: 154px;
+        @media screen and (max-width: 820px) {
+          width: 100%;
+          iframe{
+            width: 100%;
+            margin-bottom: 20px;
+          }
+         }
       }
 
       .address {
@@ -9688,18 +9716,27 @@ header {
 
         @media screen and (max-width: 820px) {
           padding-left: 30px;
+          width: 100%;
         }
 
-        p {
-          font-family: 'Poppins-Medium';
+        p, h5 {
+          font-family: 'Poppins', sans-serif;
           font-size: 16px;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 500;
           line-height: normal;
           color: $medhaWhite;
 
           @media screen and (max-width: 820px) {
             font-size: 14px;
+          }
+        }
+        h5{
+          a{
+            color: $medhaWhite;
+            &:hover{
+              color: $medhaGold;
+            }
           }
         }
       }
