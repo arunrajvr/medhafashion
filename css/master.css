@@ -7691,7 +7691,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .linear-gradient-black {
-    background: linear-gradient(0deg, #000 32%, rgba(0, 0, 0, 0.65) 41%, rgba(0, 0, 0, 0) 81.03%);
+    background: linear-gradient(0deg, #000 46%, rgba(0, 0, 0, 0.65) 52%, rgba(0, 0, 0, 0) 81.03%);
   }
 }
 
