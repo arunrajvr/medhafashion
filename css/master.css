@@ -7689,6 +7689,11 @@ body {
 .linear-gradient-black {
   background: linear-gradient(90deg, #000 0.35%, rgba(0, 0, 0, 0.65) 56.41%, rgba(0, 0, 0, 0) 81.03%);
 }
+@media screen and (max-width: 767px) {
+  .linear-gradient-black {
+    background: linear-gradient(0deg, #000 32%, rgba(0, 0, 0, 0.65) 41%, rgba(0, 0, 0, 0) 81.03%);
+  }
+}
 
 .padding-bottom-0 {
   padding-bottom: 0 !important;
@@ -8229,6 +8234,7 @@ header .header-strip p {
   top: 0;
 }
 .banner-image-holder .banner-content {
+  position: absolute;
   top: 122px;
   left: 95px;
   max-width: 870px;
@@ -8236,10 +8242,11 @@ header .header-strip p {
 }
 @media screen and (max-width: 767px) {
   .banner-image-holder .banner-content {
-    top: 25px;
-    left: 15px;
-    right: 15px;
-    max-width: 250px;
+    position: static;
+    max-width: none;
+    padding: 24px;
+    padding-top: 0;
+    background-color: #000;
   }
   .banner-image-holder .banner-content .mt-48 {
     margin-top: 15px;
@@ -8266,7 +8273,8 @@ header .header-strip p {
 }
 @media screen and (max-width: 767px) {
   .banner-image-holder .banner-content h1 {
-    font-size: 22px;
+    font-size: 36px;
+    position: relative;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -9363,6 +9371,10 @@ header .header-strip p {
   .mid-section .image-holder {
     padding-top: 0px;
   }
+  .mid-section .image-holder.mid-app-screen {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .mid-section .image-holder {
@@ -9767,6 +9779,20 @@ header .header-strip p {
 
 .location {
   padding: 80px 0;
+}
+@media screen and (max-width: 767px) {
+  .location .medha-pic {
+    height: 160px;
+    overflow: hidden;
+  }
+  .location .medha-pic img {
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .location .medha-pic {

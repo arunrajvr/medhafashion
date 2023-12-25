@@ -7651,6 +7651,9 @@ body {
 
 .linear-gradient-black {
     background: linear-gradient(90deg, #000 0.35%, rgba(0, 0, 0, 0.65) 56.41%, rgba(0, 0, 0, 0.00) 81.03%);
+    @media screen and (max-width: 767px) {
+        background: linear-gradient(0deg, #000 32%, rgba(0, 0, 0, 0.65) 41%, rgba(0, 0, 0, 0) 81.03%)
+    }
 }
 
 .padding-bottom-0 {
@@ -8195,15 +8198,17 @@ header {
         top: 0;
     }
     .banner-content {
+        position: absolute;
         top: 122px;
         left: 95px;
         max-width: 870px;
         z-index: 2;
         @media screen and (max-width: 767px) {
-            top: 25px;
-            left: 15px;
-            right: 15px;
-            max-width: 250px;
+            position: static;
+            max-width: none;
+            padding: 24px;
+            padding-top: 0;
+            background-color: #000;
             .mt-48 {
                 margin-top: 15px;
             }
@@ -8225,7 +8230,8 @@ header {
             line-height: normal;
             color: $medhaWhite;
             @media screen and (max-width: 767px) {
-                font-size: 22px;
+                font-size: 36px;
+                position: relative;
             }
             @media (min-width: 768px) and (max-width: 992px) {
                 font-size: 32px;
@@ -9164,6 +9170,10 @@ header {
         padding-top: 95px;
         @media screen and (max-width: 767px) {
             padding-top: 0px;
+            &.mid-app-screen {
+                width: 60%;
+                margin: 0 auto;
+            }
         }
         @media (min-width: 768px) and (max-width: 992px) {
             padding-top: 0px;
@@ -9517,6 +9527,18 @@ header {
 .location {
     padding: 80px 0;
     .medha-pic {
+        @media screen and (max-width: 767px) {
+            height: 160px;
+            overflow: hidden;
+            img {
+                width: auto;
+                max-width: 100%;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
         @media (min-width: 768px) and (max-width: 992px) {
             height: 260px;
             overflow: hidden;
