@@ -8593,7 +8593,7 @@ header .header-strip p {
 }
 .craft.craft-padding {
   padding-top: 90px;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 @media screen and (max-width: 767px) {
   .craft.craft-padding {
@@ -8680,13 +8680,12 @@ header .header-strip p {
 @media (min-width: 768px) and (max-width: 992px) {
   .craft .social-media-icons {
     position: absolute;
-    bottom: 75px;
-    left: 0;
-    right: auto;
-    padding: 12px 30px;
-    border-radius: 0;
+    bottom: 120px;
+    left: auto;
+    right: 0;
+    padding: 12px 15px;
     justify-content: space-around;
-    border-radius: 0 40px 40px 0;
+    border-radius: 40px 0 0 40px;
   }
 }
 .craft .social-media-icons a {
@@ -8740,7 +8739,7 @@ header .header-strip p {
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .insta-feed-holder {
-    width: 100%;
+    width: 95%;
   }
 }
 .insta-feed-holder .insta-feed {
@@ -8754,7 +8753,7 @@ header .header-strip p {
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .insta-feed-holder .insta-feed {
-    height: 255px;
+    height: 231px;
   }
 }
 .insta-feed-holder .insta-color-icon {
@@ -8838,15 +8837,18 @@ header .header-strip p {
 
 .craft-video-holder {
   position: relative;
+  top: 170px;
 }
 @media screen and (max-width: 767px) {
   .craft-video-holder {
     padding-top: 40px;
+    top: 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .craft-video-holder {
     padding-top: 0;
+    top: 0px;
   }
 }
 .craft-video-holder::before {
@@ -9365,7 +9367,7 @@ header .header-strip p {
 }
 .mid-section .image-holder {
   max-width: 450px;
-  padding-top: 95px;
+  padding-top: 107px;
 }
 @media screen and (max-width: 767px) {
   .mid-section .image-holder {

@@ -8514,7 +8514,7 @@ header {
     position: relative;
     &.craft-padding {
         padding-top: 90px;
-        padding-bottom: 250px;
+        padding-bottom: 200px;
         @media screen and (max-width: 767px) {
             padding-top: 25px;
             padding-bottom: 65px;
@@ -8583,13 +8583,12 @@ header {
         }
         @media (min-width: 768px) and (max-width: 992px) {
             position: absolute;
-            bottom: 75px;
-            left: 0;
-            right: auto;
-            padding: 12px 30px;
-            border-radius: 0;
+            bottom: 120px;
+            left: auto;
+            right: 0;
+            padding: 12px 15px;
             justify-content: space-around;
-            border-radius: 0 40px 40px 0;
+            border-radius: 40px 0 0 40px;
         }
         a {
             margin-right: 30px;
@@ -8632,7 +8631,7 @@ header {
         width: 100%;
     }
     @media (min-width: 768px) and (max-width: 992px) {
-        width: 100%;
+        width: 95%;
     }
     .insta-feed {
         height: 473px;
@@ -8641,7 +8640,7 @@ header {
             height: 255px;
         }
         @media (min-width: 768px) and (max-width: 992px) {
-            height: 255px;
+            height: 231px;
         }
     }
     .insta-color-icon {
@@ -8714,11 +8713,14 @@ header {
 
 .craft-video-holder {
     position: relative;
+    top: 170px;
     @media screen and (max-width: 767px) {
         padding-top: 40px;
+        top: 0px;
     }
     @media (min-width: 768px) and (max-width: 992px) {
         padding-top: 0;
+        top: 0px;
     }
     &::before {
         content: '';
@@ -9167,7 +9169,7 @@ header {
     position: relative;
     .image-holder {
         max-width: 450px;
-        padding-top: 95px;
+        padding-top: 107px;
         @media screen and (max-width: 767px) {
             padding-top: 0px;
             &.mid-app-screen {
