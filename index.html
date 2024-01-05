@@ -37,7 +37,7 @@
                 </div> -->
                 <nav>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="" data-wow-delay=".2s">
+                        <li class="wow slideInRight" data-wow-delay=".6s">
                             <a href="about-us.html" class="">About us
                                 <span class="menu-hover"></span>
                             </a>
@@ -73,7 +73,7 @@
                                 <span class="menu-hover"></span>
                             </a>
                         </li> -->
-                        <li class="wow slideInRight ml-90" data-wow-delay=".4s">
+                        <li class="wow slideInRight" data-wow-delay=".4s">
                             <a href="https://wa.me/+919446173547"><img src="images/whatsapp.svg" alt="Luxury Bridal Wear"> Chat With Us
                                 <span class="menu-hover"></span>
                             </a>
@@ -208,7 +208,7 @@
                 <div class="col-lg-5 col-md-5 col-sm-5">
                     <div class="craft-video-holder">
                         <div class="image-holder">
-                            <a href="https://www.youtube.com/watch?v=E59BPQW10M8" target="_blank">
+                            <a href="#craftVideo" data-toggle="modal">
                                 <img src="images/craft-video-thumbnail.png" alt="sangeeth dress for women">
                                 <div class="content-holder">
                                     <div class="icon-holder wow slideInDown" data-wow-delay=".2s">
@@ -511,6 +511,22 @@
         </div>
     </section>
 
+    <div id="craftVideo" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Crafting luxury dresses for women</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe id="handmadeCraftVideo" class="embed-responsive-item" width="100%" height="490px" src="https://www.youtube.com/embed/E59BPQW10M8?si=F54OICd1VIvXNwTt?controls=0" autoplay; frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="plugin/bootstrap/javascripts/bootstrap.min.js"></script>
     <script src="plugin/animate/js/wow.min.js"></script>
@@ -579,6 +595,17 @@
         $(".menu-btn-holder").click(function() {
             $(this).toggleClass('menu-close');
             $('.menu').toggleClass('menu-in');
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            var url = $("#handmadeCraftVideo").attr('src');
+            $("#craftVideo").on('hide.bs.modal', function() {
+                $("#handmadeCraftVideo").attr('src', '');
+            });
+            $("#craftVideo").on('show.bs.modal', function() {
+                $("#handmadeCraftVideo").attr('src', url);
+            });
         });
     </script>
 </body>
