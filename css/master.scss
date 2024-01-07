@@ -8042,6 +8042,17 @@ body {
     margin: 0 40px;
 }
 
+.read-more {
+    color: $medhaGold;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    &:active,
+    &:focus {
+        color: $medhaGold;
+    }
+}
+
 .main-section-holder {
     display: flex;
     align-items: center;
@@ -8171,7 +8182,12 @@ body {
 }
 
 header {
-    box-shadow: 0px 2px 4px 0px rgba(186, 151, 95, 0.25);
+    &.navbar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
     .header-strip {
         padding: 10px;
         text-align: center;
@@ -8189,9 +8205,29 @@ header {
             }
         }
     }
+    .menu-header {
+        background-color: $medhaWhite;
+        box-shadow: 0px 2px 4px 0px rgba(186, 151, 95, 0.25);
+    }
+    &.fixedHeader {
+        .menu-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+.home-page-banner {
+    margin-top: 146px;
+    @media screen and (max-width: 992px) {
+        margin-top: 93px;
+    }
 }
 
 .banner-image-holder {
+    background-color: $medhaBlack;
     .overlay {
         left: 0;
         right: 0;
@@ -8507,7 +8543,7 @@ header {
 }
 
 .flower-bg {
-    background-image: url('../images/flower-bg.png');
+    background-image: url('../images/flower-bg.webp');
     background-size: cover;
 }
 
@@ -9520,6 +9556,63 @@ header {
     }
 }
 
+.testimonial {
+    .content {
+        text-align: center;
+        margin-top: 15px;
+        @media screen and (max-width: 767px) {
+            margin-top: 10px;
+        }
+        @media (min-width: 768px) and (max-width: 992px) {
+            margin-top: 10px;
+        }
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            color: $medhaBlack;
+            @media screen and (max-width: 767px) {
+                font-size: 20px;
+            }
+            @media (min-width: 768px) and (max-width: 992px) {
+                font-size: 20px;
+            }
+        }
+        h6 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $medhaBlack;
+            margin-bottom: 12px;
+            @media screen and (max-width: 767px) {
+                font-size: 14px;
+            }
+            @media (min-width: 768px) and (max-width: 992px) {
+                font-size: 14px;
+            }
+        }
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $medhaBlack;
+            margin-bottom: 12px;
+            @media screen and (max-width: 767px) {
+                font-size: 14px;
+            }
+            @media (min-width: 768px) and (max-width: 992px) {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
 .divider {
     border-top: 1px solid $medhaWhite;
 }
@@ -9828,6 +9921,9 @@ header {
                     color: $medhaWhite;
                     @media screen and (max-width: 767px) {
                         font-size: 14px;
+                        &.mobile-number {
+                            font-size: 18px;
+                        }
                     }
                     @media (min-width: 768px) and (max-width: 992px) {
                         font-size: 16px;
@@ -10247,14 +10343,29 @@ header {
     position: relative;
     .modal-title {
         font-family: 'PlayfairDisplay-Regular';
-        font-size: 24px;
+        font-size: 18px;
         line-height: 1;
+        color: $medhaGold;
     }
     button {
         position: absolute;
         right: 15px;
         top: 14px;
         font-size: 24px;
+    }
+}
+
+.modal {
+    .testimonial {
+        .testimonial-holder {
+            .img-holder {
+                img {
+                    width: 100%;
+                }
+                height: 250px;
+                overflow: hidden;
+            }
+        }
     }
 }
 
